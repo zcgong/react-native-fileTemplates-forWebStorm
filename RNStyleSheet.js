@@ -2,9 +2,9 @@
  * ${NAME}
  * Created by ${NAME} on ${DATE}.
  */
-"use strict";
-import {StyleSheet,Dimensions} from 'react-native';
-var {width,height} = Dimensions.get('window');
+'use strict';
+import { StyleSheet, Dimensions, Platform } from 'react-native';
+var { width, height } = Dimensions.get('window');
 
 const ${NAME} = StyleSheet.create({
 

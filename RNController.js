@@ -2,7 +2,7 @@
  * ${NAME}
  * Created by ${USER} on ${DATE}.
  */
- "use strict";
+ 'use strict';
  var ${NAME} = {
         
  

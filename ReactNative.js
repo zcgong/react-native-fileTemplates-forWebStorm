@@ -2,20 +2,22 @@
  * ${NAME}
  * Created by ${USER} on ${DATE}.
  */
- "use strict";
- import React,{
-    Component,
+ 'use strict';
+ import React,{ Component } from 'react';
+ import {
     View,
     Text,
  } from 'react-native';
+ 
+const DefaultProps = {
 
+};
 
- class ${NAME} extends Component {
-    // 默认属性
-    static defaultProps = {};
+const DefaultPropsTypes = {
 
-    // 属性类型
-    static propTypes = {};
+};
+
+export default class ${NAME} extends Component {
 
     // 构造
     constructor(props) {
@@ -32,7 +34,6 @@
             </View>
         );
     }
-
 }
-
-export default ${NAME};
+${NAME}.defaultProps = DefaultProps;
+${NAME}.propTypes = DefaultPropsTypes;
